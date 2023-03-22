@@ -1,0 +1,25 @@
+[package]
+name = "color_finder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+repng = "0.2"
+scrap = "0.5"
+enigo = "0.0.14"
+inputbot = { git = "https://github.com/obv-mikhail/InputBot", branch = "develop" }
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+serde = "1.0.119"
+serde_json = "1.0.61"
+serde_derive = "1.0.119"
+msgbox = { path = "./msgbox-rs" }
+
+tray-icon = "0.4.3"
+winit = "0.28"
+winapi = {version = "0.3.9", features = ["wincon", "winuser"]}
+image = "0.24"
+colored = "2.0.0"
+winrt-notification = "0.5.1"
+winreg = "0.11.0"

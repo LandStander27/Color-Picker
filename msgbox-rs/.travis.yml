@@ -1,0 +1,12 @@
+os:
+  - linux
+  - osx
+
+language: rust
+rust:
+  - stable
+
+addons:
+  apt:
+    packages:
+      - libgtk-3-dev

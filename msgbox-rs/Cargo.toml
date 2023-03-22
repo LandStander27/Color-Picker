@@ -1,0 +1,25 @@
+[package]
+name = "msgbox"
+version = "0.7.0"
+authors = ["Jang Ryeol <ryeolj5911@gmail.com>"]
+description = "A multi-platform message box modal with a OK button, which runs synchronously."
+repository = "https://github.com/bekker/msgbox-rs"
+
+keywords = ["msgbox", "gui", "gtk"]
+license = "MIT"
+
+[dependencies]
+thiserror = "1.0.30"
+
+
+[target.'cfg(not(any(target_os = "windows", target_os = "macos")))'.dependencies]
+gtk = "0.16"
+glib = "0.15.5"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+winapi = { version = "0.3.9", features = ["winuser"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+cocoa = "0.24.0"
+objc = "0.2.7"
+
