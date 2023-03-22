@@ -1,3 +1,5 @@
+<img src="icon.png" alt="Logo" width="200"/>
+
 ## Color picker
 - A color picker to find a color on the screen
 
