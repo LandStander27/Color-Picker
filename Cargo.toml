@@ -23,3 +23,4 @@ image = "0.24"
 colored = "2.0.0"
 winrt-notification = "0.5.1"
 winreg = "0.11.0"
+

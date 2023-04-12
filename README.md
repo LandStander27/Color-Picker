@@ -1,6 +1,8 @@
-<img src="icon.png" alt="Logo" width="200"/>
-
-## Color picker
+<div align="center">
+	<img src="icon.png" alt="Logo" width="200"/>
+	<h1>Color picker</h1>
+</div>
+<hr>
 - A color picker to find a color on the screen
 
 #### Building
